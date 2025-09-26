@@ -1,0 +1,99 @@
+UF_ZI: Código do município ou zona de influência do estabelecimento de saúde
+ANO_CMPT: Ano de competência do processamento da AIH
+MES_CMPT: Mês de competência do processamento da AIH
+ESPEC: Código da especialidade do estabelecimento de saúde
+CGC_HOSP: CNPJ do hospital
+N_AIH: Número da Autorização de Internação Hospitalar (AIH)
+IDENT: Tipo de identificação do beneficiário (ex: SUS, particular)
+CEP: Código de Endereçamento Postal do paciente
+MUNIC_RES: Código IBGE do município de residência do paciente
+NASC: Data de nascimento do paciente (AAAAMMDD)
+SEXO: Sexo do paciente
+UTI_MES_IN: Dia de entrada em UTI no mês
+UTI_MES_AN: Ano de entrada em UTI
+UTI_MES_AL: Dia de alta de UTI no mês
+UTI_MES_TO: Tempo total de permanência em UTI no mês
+MARCA_UTI: Marcação de uso de UTI
+UTI_INT_IN: Dia de entrada em UTI na internação
+UTI_INT_AN: Ano de entrada em UTI na internação
+UTI_INT_AL: Dia de alta de UTI na internação
+UTI_INT_TO: Tempo total de permanência em UTI na internação
+DIAR_ACOM: Quantidade de diárias de acompanhante
+QT_DIARIAS: Quantidade total de diárias
+PROC_SOLIC: Código do procedimento solicitado
+PROC_REA: Código do procedimento realizado
+VAL_SH: Valor pago pelo serviço hospitalar
+VAL_SP: Valor pago pelo serviço profissional
+VAL_SADT: Valor dos serviços auxiliares de diagnóstico e terapia
+VAL_RN: Valor referente à assistência ao recém-nascido
+VAL_ACOMP: Valor do acompanhante
+VAL_ORTP: Valor de órteses, próteses e materiais especiais
+VAL_SANGUE: Valor relativo a transfusão de sangue
+VAL_SADTSR: Valor de SADT com fator de rateio
+VAL_TRANSP: Valor do transporte
+VAL_OBSANG: Valor de coleta e/ou processamento de sangue
+VAL_PED1AC: Valor de pedidos de alto custo
+VAL_TOT: Valor total da AIH
+VAL_UTI: Valor referente à UTI
+US_TOT: Valor total pago pelo usuário (quando aplicável)
+DT_INTER: Data de entrada na internação (AAAAMMDD)
+DT_SAIDA: Data de saída da internação (AAAAMMDD)
+DIAG_PRINC: Diagnóstico principal (CID-10)
+DIAG_SECUN: Diagnóstico secundário (CID-10)
+COBRANCA: Código do diagnóstico para fins de cobrança
+NATUREZA: Código da natureza da unidade de saúde
+NAT_JUR: Natureza jurídica do estabelecimento
+GESTAO: Código do município ou esfera gestora
+RUBRICA: Rubrica orçamentária associada
+IND_VDRL: Indicador de exame VDRL realizado (0 = não, 1 = sim)
+MUNIC_MOV: Código IBGE do município do estabelecimento de saúde
+COD_IDADE: Código da unidade de medida da idade (1 = anos, 2 = meses, 3 = dias, 4 = horas)
+IDADE: Idade do paciente na unidade indicada por COD_IDADE
+DIAS_PERM: Número de dias de permanência na internação
+MORTE: Indicador de óbito (1 = sim, 0 = não)
+NACIONAL: Código de nacionalidade do paciente
+NUM_PROC: Número do processo da AIH
+CAR_INT: Caráter da internação (1 = eletiva, 2 = urgência/emergência)
+TOT_PT_SP: Total de procedimentos ambulatoriais (SP) faturados
+CPF_AUT: CPF do autorizador da AIH
+HOMONIMO: Indicador de homônimo (0 = não, 1 = sim)
+NUM_FILHOS: Número de filhos vivos
+INSTRU: Código do grau de instrução do paciente
+CID_NOTIF: CID de notificação compulsória (se aplicável)
+CONTRACEP1: Código do método contraceptivo 1
+CONTRACEP2: Código do método contraceptivo 2
+GESTRISCO: Indicador de gestação de risco (0 = não, 1 = sim)
+INSC_PN: Número de inscrição no Programa Nacional de Imunizações
+SEQ_AIH5: Sequencial da AIH no ano/mês
+CBOR: Código da ocupação do paciente (Classificação Brasileira de Ocupações)
+CNAER: Código da atividade econômica do paciente
+VINCPREV: Vínculo previdenciário do paciente
+GESTOR_COD: Código do gestor responsável pela autorização
+GESTOR_TP: Tipo do gestor (municipal, estadual, federal)
+GESTOR_CPF: CPF do gestor
+GESTOR_DT: Data de autorização pelo gestor (AAAAMMDD)
+CNES: Código do estabelecimento de saúde (Cadastro Nacional de Estabelecimentos de Saúde)
+CNPJ_MANT: CNPJ da mantenedora do hospital
+INFEHOSP: Indicador de infecção hospitalar (0 = não, 1 = sim)
+CID_ASSO: CID associado (ex: comorbidades)
+CID_MORTE: CID da causa básica de morte (se MORTE = 1)
+COMPLEX: Código de complexidade do atendimento
+FINANC: Tipo de financiamento do procedimento
+FAEC_TP: Tipo de fator de ajuste (FAEC)
+REGCT: Regime de atendimento (ex: SUS, particular)
+RACA_COR: Raça/cor declarada pelo paciente
+ETNIA: Código da etnia indígena (se aplicável)
+SEQUENCIA: Número sequencial do registro
+REMESSA: Nome do arquivo de remessa original
+AUD_JUST: Justificativa de auditoria
+SIS_JUST: Justificativa no sistema
+VAL_SH_FED: Valor do serviço hospitalar pago pela União
+VAL_SP_FED: Valor do serviço profissional pago pela União
+VAL_SH_GES: Valor do serviço hospitalar pago pelo gestor
+VAL_SP_GES: Valor do serviço profissional pago pelo gestor
+VAL_UCI: Valor referente à Unidade de Cuidados Intermediários
+MARCA_UCI: Marcação de uso de UCI
+DIAGSEC1 a DIAGSEC9: Diagnósticos secundários adicionais (CID-10)
+TPDISEC1 a TPDISEC9: Tipo de diagnóstico secundário (ex: comorbidade, complicação)
+ESTADO_ORIGEM: Sigla da UF de origem do registro
+ANO: Ano de realização da internação 
